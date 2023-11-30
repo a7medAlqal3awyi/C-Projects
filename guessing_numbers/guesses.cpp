@@ -7,7 +7,7 @@ int main()
     srand(time(0));
     actual_ans = rand() % 10;
     cout << "Wellcome in guessing game \n";
-    cout << "Guess number between 1 and 10  \n";
+    cout << "Guess  number between 1 and 10  \n";
     for (int i = 0; i < times_to_predict; i++)
     {
         cout << "Enter your gueess #" << i + 1 << "\n";
