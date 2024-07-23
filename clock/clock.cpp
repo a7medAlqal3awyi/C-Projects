@@ -13,7 +13,7 @@ int main()
     while (true)
     {
         system("cls");
-        if (sec > 59)
+        if (sec > 59) 
         {
             min++;
             sec = 0;
